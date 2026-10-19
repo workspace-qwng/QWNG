@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QWNG | Official Platform</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+        }
+        body {
+            background-color: #0d1117;
+            color: #c9d1d9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .profile-card {
+            max-width: 450px;
+            width: 100%;
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 12px;
+            padding: 40px 30px;
+            text-align: center;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+        }
+        .brand-name {
+            font-size: 3.5rem;
+            font-weight: 800;
+            letter-spacing: 6px;
+            color: #58a6ff;
+            margin-bottom: 5px;
+        }
+        .status-line {
+            font-size: 0.95rem;
+            color: #8b949e;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin-bottom: 30px;
+        }
+        .divider {
+            height: 1px;
+            background: #30363d;
+            margin: 20px 0;
+        }
+        .info-section {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin: 25px 0;
+        }
+        .link-item {
+            background: #21262d;
+            border: 1px solid #30363d;
+            padding: 14px;
+            border-radius: 8px;
+            text-decoration: none;
+            color: #c9d1d9;
+            font-size: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.2s ease;
+        }
+        .link-item:hover {
+            border-color: #58a6ff;
+            background: #262c36;
+        }
+        .link-label {
+            color: #8b949e;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+        }
+        .link-value {
+            font-weight: 600;
+        }
+        .instagram-style {
+            color: #ff7b72;
+        }
+        .email-style {
+            color: #58a6ff;
+        }
+        .footer-note {
+            font-size: 0.8rem;
+            color: #8b949e;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="profile-card">
+    <div class="brand-name">QWNG</div>
+    <div class="status-line">Official Digital Identity</div>
+    
+    <div class="divider"></div>
+    
+    <div class="info-section">
+        <a href="https://instagram.com" target="_blank" class="link-item">
+            <span class="link-label">Brand Owner</span>
+            <span class="link-value instagram-style">@loyalqw</span>
+        </a>
+        <a href="mailto:qwngofficial@gmail.com" class="link-item">
+            <span class="link-label">Operations</span>
+            <span class="link-value email-style">qwngofficial@gmail.com</span>
+        </a>
+        <a href="mailto:workspace.qwng@gmail.com" class="link-item">
+            <span class="link-label">Workspace</span>
+            <span class="link-value email-style">workspace.qwng@gmail.com</span>
+        </a>
+    </div>
+    
+    <div class="footer-note">
+        Copyright &copy; 2026 QWNG. All Rights Reserved.
+    </div>
+</div>
+
+</body>
+</html>
